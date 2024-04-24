@@ -83,7 +83,6 @@ button {
     gap: 48px;
 }
 
-
 /* Generic style for links */
 .link {
     color: #a7b8d8;
@@ -137,7 +136,7 @@ button {
 
 /* Give style to the image border */
 .hero-img {
-    border: 5px dotted rgb(269, 169, 69);
+    border: 5px dotted #3882F6;
     border-radius: 45px;
 }
 
@@ -146,6 +145,7 @@ button {
     font-size: 12px;
     align-self: center;
     writing-mode: vertical-lr;
+    display: inline-block;
 }
 
 /* Unique styling to hero-header flower span */
@@ -159,13 +159,43 @@ button {
 
 /*  */
 /* Second Section - Cards */
+
+/* Basic declarations */
 .card-section {
     background-color: #F9FAF8;
     color: #1F2937;
     padding: 64px;
 }
 
+/* Style the 2nd section header */
 .header-cards {
     text-align: center;
+    font-size: 42px;
     font-weight: 900;
+    margin-bottom: 5px;
+}
+
+/* Display the cards horizontally */
+.cards-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 64px;
+}
+
+/* Have a little of margin preventing overlapping */
+.card {
+    margin: 12px;
+}
+
+/* Make the text fit in the card */
+.card-para {
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Turn images into frames */
+.card-img {
+    border: 4px solid #545455;
+    border-radius: 18px;
+    object-fit: cover; /* Prevent stretching images */
 }
