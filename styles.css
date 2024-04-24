@@ -9,6 +9,10 @@ body {
     font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
+button {
+    font-family: inherit; /* It doesn't inherit by default */
+}
+
 /* RESET ABOVE */
 
 /*  */
@@ -24,6 +28,8 @@ body {
     align-items: center;
 
     padding: 15px 64px;
+
+    font-family: "Noto Sans", sans-serif;
 }
 
 /* Reset anchors */
@@ -36,10 +42,25 @@ body {
 .links-wrapper {
     width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     
     margin-left: 100px;
     gap: 12px
+}
+
+.top-link {
+    white-space: nowrap;
+}
+
+/* Style the Buy Flowers anchor element */
+#buy-flowers {
+    background-color: #000000;
+    border: 2px solid #383838;
+    padding: 5px 25px;
+    color: #acacac;
+    font-weight: 300;
+    border-radius: 12px;
 }
 
 /* Unique styling for the logo */
@@ -60,6 +81,13 @@ body {
     display: flex;
     justify-content: space-evenly;
     gap: 48px;
+}
+
+
+/* Generic style for links */
+.link {
+    color: #a7b8d8;
+    font-size: 1.1em;
 }
 
 /* Prevent overflowing */
@@ -102,7 +130,25 @@ body {
     border-radius: 10px
 }
 
-/* Unique styling to flower span */
+/* Make the image and the credits stand alone */
+.img-container {
+    display: flex;
+}
+
+/* Give style to the image border */
+.hero-img {
+    border: 5px dotted rgb(269, 169, 69);
+    border-radius: 45px;
+}
+
+/* Makes credits vertical by default */
+.credits {
+    font-size: 12px;
+    align-self: center;
+    writing-mode: vertical-lr;
+}
+
+/* Unique styling to hero-header flower span */
 #flower {
     background-color: #ffffff23;
     color: rgb(269, 169, 69);
@@ -110,8 +156,16 @@ body {
     margin-right: 4px;
 }
 
-/* Secret, shh!! */
-.rickroll-link {
-    color: #a7b8d8;
-    font-size: 1.1em;
+
+/*  */
+/* Second Section - Cards */
+.card-section {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    padding: 64px;
+}
+
+.header-cards {
+    text-align: center;
+    font-weight: 900;
 }
