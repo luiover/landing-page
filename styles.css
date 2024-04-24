@@ -222,18 +222,21 @@ button {
 /*  */
 /* Third Section - Quote */
 
+/* Style the section only */
 .quote-section {
     background-color: #E5E7EB;
     padding: 128px;
     color: #1F2937;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     min-height: 600px;
 }
 
+/* Style the quoted text */
 .big-quote-text {
     font-size: 36px;
     font-weight: 300;
@@ -242,8 +245,15 @@ button {
     font-style: italic;
 }
 
+/* Emphasize the author */
 .quote-author {
+    align-self: flex-end;
     font-size: 24px;
     text-align: right;
     margin: 25px 105px;
 }
+
+
+
+/*  */
+/* Last Section - Banner */
