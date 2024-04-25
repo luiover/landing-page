@@ -314,3 +314,21 @@ button {
     white-space: nowrap;
     padding: 8px 64px;
 }
+
+/* Create the space for the footer */
+.footer-section {
+    background-color: #1F2937;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+/* Special style to copyright text */
+.copyright {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
