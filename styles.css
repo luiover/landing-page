@@ -121,8 +121,8 @@ button {
     margin: 8px 0;
 }
 
-/* Makes the button look awesome */
-.hero-text > .btn {
+/* Makes the buttons look awesome */
+.btn {
     margin: 16px 0;
     font-size: 18px;
     font-weight: 700;
@@ -257,3 +257,60 @@ button {
 
 /*  */
 /* Last Section - Banner */
+.banner-section {
+    background-color: #F9FAF8;
+    padding: 128px;
+    color: #F9FAF8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
+}
+
+/* Make the banner structure */
+.banner {
+    background-color: #3882F6;
+
+    display: flex;
+
+    width: 100%;
+    border-radius: 8px;
+    padding: 45px 35px;
+
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 36px;
+}
+
+/* Banner title */
+.banner-header {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+/* Little text */
+.banner-description {
+    font-size: 22px;
+    max-width: 640px;
+}
+
+/* The banner button */
+.alt-btn {
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 700;
+
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid #F9FAF8;
+
+    padding: 8px 48px;
+    border-radius: 10px;
+
+    white-space: nowrap;
+    padding: 8px 64px;
+}
