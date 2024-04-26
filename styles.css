@@ -247,10 +247,15 @@ button {
 
 /* Emphasize the author */
 .quote-author {
-    align-self: flex-end;
+    display: block;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 300;
+
     font-size: 24px;
     text-align: right;
-    margin: 25px 105px;
+    margin: 25px 65px;
 }
 
 
