@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 
     margin: 0;
@@ -19,9 +21,9 @@ button {
 /* Styling the Navigation bar */
 
 /* Setting up the body */
-.topbar {
-    background-color: #1F2937;
-    color: #F9FAF8;
+.top-bar {
+    background-color: #1f2937;
+    color: #f9faf8;
 
     display: flex;
     justify-content: space-around;
@@ -29,11 +31,11 @@ button {
 
     padding: 15px 64px;
 
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* Reset anchors */
-.topbar a {
+.top-bar a {
     text-decoration: none;
     color: inherit; /* inherit from parent */
 }
@@ -44,9 +46,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     margin-left: 100px;
-    gap: 12px
+    gap: 12px;
 }
 
 .top-link {
@@ -69,16 +71,14 @@ button {
     font-size: 32px;
 }
 
-
-
 /*  */
 /* First Section - Hero */
 
 /* Align elements */
 .hero-section {
-    background-color: #1F2937;
+    background-color: #1f2937;
     padding: 64px;
-    color: #F9FAF8;
+    color: #f9faf8;
 
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@ button {
 /* Modify the paragraph */
 .hero-text > .para {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     margin: 8px 0;
 }
 
@@ -126,13 +126,13 @@ button {
     margin: 16px 0;
     font-size: 18px;
     font-weight: 700;
-    
-    background-color: #3882F6;
+
+    background-color: #3882f6;
     color: white;
 
     border: none;
     padding: 8px 48px;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 /* Make the image and the credits stand alone */
@@ -142,7 +142,7 @@ button {
 
 /* Give style to the image border */
 .hero-img {
-    border: 5px dotted #3882F6;
+    border: 5px dotted #3882f6;
     border-radius: 45px;
 
     width: 400px;
@@ -168,15 +168,13 @@ button {
     margin-right: 4px;
 }
 
-
-
 /*  */
 /* Second Section - Cards */
 
 /* Basic declarations */
 .card-section {
-    background-color: #F9FAF8;
-    color: #1F2937;
+    background-color: #f9faf8;
+    color: #1f2937;
     padding: 64px;
 
     min-height: 600px;
@@ -217,16 +215,14 @@ button {
     object-fit: cover; /* Prevent stretching images */
 }
 
-
-
 /*  */
 /* Third Section - Quote */
 
 /* Style the section only */
 .quote-section {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     padding: 128px;
-    color: #1F2937;
+    color: #1f2937;
 
     display: flex;
     flex-direction: column;
@@ -258,14 +254,12 @@ button {
     margin: 25px 65px;
 }
 
-
-
 /*  */
 /* Last Section - Banner */
 .banner-section {
-    background-color: #F9FAF8;
+    background-color: #f9faf8;
     padding: 128px;
-    color: #F9FAF8;
+    color: #f9faf8;
 
     display: flex;
     flex-direction: column;
@@ -277,7 +271,7 @@ button {
 
 /* Make the banner structure */
 .banner {
-    background-color: #3882F6;
+    background-color: #3882f6;
 
     display: flex;
 
@@ -316,9 +310,9 @@ button {
     font-size: 18px;
     font-weight: 700;
 
-    background-color: #3882F6;
+    background-color: #3882f6;
     color: white;
-    border: 3px solid #F9FAF8;
+    border: 3px solid #f9faf8;
 
     padding: 8px 48px;
     border-radius: 10px;
@@ -329,9 +323,9 @@ button {
 
 /* Create the space for the footer */
 .footer-section {
-    background-color: #1F2937;
+    background-color: #1f2937;
     height: 100px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;

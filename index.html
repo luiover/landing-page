@@ -1,106 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flowerain - Landing Page</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowerain - Landing Page</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
+    <body>
+        <div class="top-bar">
+            <a href="#" class="logo">Flowerain</a>
 
-<body>
-    <div class="topbar">
-        <a href="#" class="logo">Flowerain</a>
-
-        <div class="links-wrapper">
-            <a class="top-link" href="#">About</a>
-            <a class="top-link" href="#">Pricing</a>
-            <a class="top-link" href="#">Contact</a>
-            <a class="top-link" href="#">Get in touch</a>
-            <a class="top-link" id="buy-flowers" href="#">Buy Flowers</a>
+            <div class="links-wrapper">
+                <a class="top-link" href="#">About</a>
+                <a class="top-link" href="#">Pricing</a>
+                <a class="top-link" href="#">Contact</a>
+                <a class="top-link" href="#">Get in touch</a>
+                <a class="top-link" id="buy-flowers" href="#">Buy Flowers</a>
+            </div>
         </div>
-    </div>
 
-    <div class="hero-section">
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1 class="header"><span id="flower">Flower</span>ain.</h1>
+                <h2 class="subheader">We are the future</h2>
 
-        <div class="hero-text">
-            <h1 class="header"><span id="flower">Flower</span>ain.</h1>
-            <h2 class="subheader">We are the future</h2>
+                <p class="para">
+                    We sell flowers, we gift emotions. Unique flowers of all types, genderless. We share love
+                    and passion, while
+                    <a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> they</a> don't. We
+                    made more than 1.250 people happy, and now we are waiting you.
+                </p>
 
-            <p class="para">We sell flowers, we gift emotions. Unique flowers of all types, genderless.
-                We share love and passion, while <a class="link"
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    they</a> don't. We made more than 1.250 people happy, and now we are waiting you.
+                <button class="btn">Join us</button>
+            </div>
+            <div class="img-container">
+                <img
+                    src="./images/our-flowers.jpg"
+                    width="540"
+                    height="300"
+                    alt="Flowerain's pink flower"
+                    class="hero-img" />
+
+                <p class="credits">
+                    Photo by
+                    <a
+                        class="link"
+                        href="https://unsplash.com/@frostroomhead?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Rodion Kutsaiev</a
+                    >
+                    on
+                    <a
+                        class="link"
+                        href="https://unsplash.com/photos/selective-focus-photography-of-pink-flower-JemKKIu-bQA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Unsplash</a
+                    >
+                </p>
+            </div>
+        </div>
+
+        <div class="card-section">
+            <h1 class="header-cards">Our amazing flowers</h1>
+
+            <div class="cards-wrapper">
+                <div class="card" id="hydrangea">
+                    <img class="card-img" src="./images/hydrangea.jpg" width="200px" height="200px" />
+                    <p class="credits">
+                        Photo by
+                        <a
+                            class="link"
+                            href="https://unsplash.com/@josefin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Josefin</a
+                        >
+                        on
+                        <a
+                            class="link"
+                            href="https://unsplash.com/photos/blue-and-yellow-petaled-flowers-under-blue-sky-LvEOWMyr-Bc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Unsplash</a
+                        >
+                    </p>
+                    <p class="card-para">Boasts blooms that change color throughout the season</p>
+                </div>
+
+                <div class="card" id="magnolia">
+                    <img class="card-img" src="./images/lavender.jpg" width="200px" height="200px" />
+                    <p class="credits">
+                        Photo by
+                        <a
+                            class="link"
+                            href="https://unsplash.com/@daiga_ellaby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Daiga Ellaby</a
+                        >
+                        on
+                        <a
+                            class="link"
+                            href="https://unsplash.com/photos/tilt-shift-lens-pink-fetal-flowers-ClWvcrkBhMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Unsplash</a
+                        >
+                    </p>
+                    <p class="card-para">Large, fragrant flowers announce spring's arrival</p>
+                </div>
+
+                <div class="card" id="lavender">
+                    <img class="card-img" src="./images/magnolia.jpg" width="200px" height="200px" />
+                    <p class="credits">
+                        Photo by
+                        <a
+                            class="link"
+                            href="https://unsplash.com/@daiga_ellaby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Daiga Ellaby</a
+                        >
+                        on
+                        <a
+                            class="link"
+                            href="https://unsplash.com/photos/tilt-shift-lens-pink-fetal-flowers-ClWvcrkBhMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Unsplash</a
+                        >
+                    </p>
+                    <p class="card-para">Fragrant purple blooms grace landscapes and soothe the mind</p>
+                </div>
+
+                <div class="card" id="saffron">
+                    <img class="card-img" src="./images/saffron.jpg" width="200px" height="200px" />
+                    <p class="credits">
+                        Photo by
+                        <a
+                            class="link"
+                            href="https://unsplash.com/@benyamin_bohlouli?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Ben Bohlouli</a
+                        >
+                        on
+                        <a
+                            class="link"
+                            href="https://unsplash.com/photos/purple-crocus-in-bloom-close-up-photo-GKHNCVWEXW8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Unsplash</a
+                        >
+                    </p>
+                    <p class="card-para">Delicate threads add a touch of luxury to any dish</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-section">
+            <p class="big-quote-text">
+                Sometimes words just aren't enough. Let Flowerain be your voice! Our exquisite blooms capture
+                emotions perfectly. Celebrate life's milestones, express heartfelt apologies, or simply
+                brighten someone's day with a beautiful arrangement. Flowerain - where feelings bloom into
+                unforgettable moments.
+                <span class="quote-author">- Generated by Gemini AI</span>
             </p>
-
-            <button class="btn">Join us</button>
-        </div>
-        <div class="img-container">
-            <img src="./images/our-flowers.jpg" width="540" height="300" alt="Flowerain's pink flower" class="hero-img">
-           
-            <p class="credits">Photo by <a class="link"
-                    href="https://unsplash.com/@frostroomhead?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rodion
-                    Kutsaiev</a> on <a class="link"
-                    href="https://unsplash.com/photos/selective-focus-photography-of-pink-flower-JemKKIu-bQA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            </p>
         </div>
 
-    </div>
+        <div class="banner-section">
+            <div class="banner">
+                <div class="banner-content">
+                    <h1 class="banner-header">Order today your lovely new flowers!</h1>
+                    <p class="banner-description">
+                        Join into the waiting list. We'll contact you as soon as possible to see if you're
+                        eligible!
+                    </p>
+                </div>
 
-    <div class="card-section">
-        <h1 class="header-cards">Our amazing flowers</h1>
-
-        <div class="cards-wrapper">
-            <div class="card" id="hydrangea">
-                <img class="card-img" src="./images/hydrangea.jpg" width="200px" height="200px">
-                <p class="credits"> Photo by <a class="link" href="https://unsplash.com/@josefin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Josefin</a> on <a class="link" href="https://unsplash.com/photos/blue-and-yellow-petaled-flowers-under-blue-sky-LvEOWMyr-Bc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
-                <p class="card-para">Boasts blooms that change color throughout the season</p>
-            </div>
-
-            <div class="card" id="magnolia">
-                <img class="card-img" src="./images/lavender.jpg" width="200px" height="200px">
-                <p class="credits"> Photo by <a class="link" href="https://unsplash.com/@daiga_ellaby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daiga Ellaby</a> on <a class="link" href="https://unsplash.com/photos/tilt-shift-lens-pink-fetal-flowers-ClWvcrkBhMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
-                <p class="card-para">Large, fragrant flowers announce spring's arrival</p>
-            </div>
-
-            <div class="card" id="lavender">
-                <img class="card-img" src="./images/magnolia.jpg" width="200px" height="200px">
-                <p class="credits"> Photo by <a class="link" href="https://unsplash.com/@daiga_ellaby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daiga Ellaby</a> on <a class="link" href="https://unsplash.com/photos/tilt-shift-lens-pink-fetal-flowers-ClWvcrkBhMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
-                <p class="card-para">Fragrant purple blooms grace landscapes and soothe the mind</p>
-            </div>
-
-            <div class="card" id="saffron">
-                <img class="card-img" src="./images/saffron.jpg" width="200px" height="200px">
-                <p class="credits"> Photo by <a class="link" href="https://unsplash.com/@benyamin_bohlouli?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ben Bohlouli</a> on <a class="link" href="https://unsplash.com/photos/purple-crocus-in-bloom-close-up-photo-GKHNCVWEXW8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
-                <p class="card-para">Delicate threads add a touch of luxury to any dish</p>
+                <button class="alt-btn">Sign up</button>
             </div>
         </div>
-    </div>
 
-    <div class="quote-section">
-        <p class="big-quote-text">Sometimes words just aren't enough. Let Flowerain be your voice! Our exquisite blooms capture emotions perfectly.
-        Celebrate life's milestones, express heartfelt apologies, or simply brighten someone's day with a beautiful arrangement.
-        Flowerain - where feelings bloom into unforgettable moments.
-        <span class="quote-author">- Generated by Gemini AI</span>
-    </p>
-    </div>
-
-    <div class="banner-section">
-        <div class="banner">
-            <div class="banner-content">
-                <h1 class="banner-header">Order today your lovely new flowers!</h1>
-                <p class="banner-description">Join into the waiting list. We'll contact you as soon as possible to see if you're eligible!</p>
-            </div>
-            
-            <button class="alt-btn">Sign up</button>
+        <div class="footer-section">
+            <p class="copyright">Copyright © Flowerain 2024</p>
         </div>
-    </div>
-
-    <div class="footer-section">
-        <p class="copyright">
-            Copyright © Flowerain 2024
-        </p>
-    </div>
-</body>
-
+    </body>
 </html>
